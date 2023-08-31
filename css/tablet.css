@@ -1,0 +1,29 @@
+@media (min-width: 481px) and (max-width: 1024px) {
+    header {
+        padding: 30px 20px;
+        #navigation {
+            display: none;  
+        }
+    }
+    section {
+        padding: 40px 20px;
+        #section1-wrap {
+            display: flex;
+        }
+    }
+    footer {
+        position: relative;
+        display: flex;
+        min-height: 260px;
+        padding: 40px 20px;
+        #contact {
+            position: absolute;
+            bottom: 0;
+            padding-bottom: inherit;
+            margin-top: 40px;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+        }
+    }
+}

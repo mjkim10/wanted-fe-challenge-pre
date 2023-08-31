@@ -1,0 +1,9 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    header {
+        padding: 20px 20px;
+        height: 70px;
+        #navigation {
+            display: none;  
+        }
+    }
+}

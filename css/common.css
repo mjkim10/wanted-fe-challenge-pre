@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-size: 14px;
+    &  * {
+        box-sizing: border-box;
+    }
+}
+#logo {
+    height: 30px;
+    width: 60px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    position: relative;
+    #menu_icon {
+        height: 16px;
+        width: 27px;
+    }
+}
+section {
+    background-color: #F9FAFC;
+    
+    & img {
+        width: 100%;
+        object-fit: contain;
+    }
+}
+footer {
+    background-color: #1D1F24;
+    color: white;
+    #contact {
+        #sns {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            & > * {
+                margin-left: 20px;
+            }
+        }
+        #sub {
+            display: flex;
+            align-items: center;
+            height: 35px;
+
+            & > input {
+                width: 180px;
+                height: 100%;
+                padding-left: 15px;
+            } 
+            & > button {
+                width: 120px;
+                height: 100%;
+                background-color: #FF565C;
+                color: white;
+                font-size: 12px;
+                border: 0;
+            }
+        }
+    }
+}
