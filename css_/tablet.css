@@ -1,0 +1,12 @@
+@media (min-width: 481px) and (max-width: 1024px) {
+    header {
+
+    }
+    section {
+        padding: 40px 20px;
+    }
+
+    #finance1 {
+        min-height: 725px;
+    }
+}
