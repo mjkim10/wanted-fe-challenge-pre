@@ -4,11 +4,13 @@
     }
     section {
         padding: 20px;
+        & > * {
+            margin-bottom: 20px !important;
+        }
 
         #finance1 {
             min-height: 440px;
             object-position: 28%;
-            margin-bottom: 20px;
         }
     }
 }
